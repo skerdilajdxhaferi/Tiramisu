@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" href="style.css">
     <title>Tiramisu Recipe | Sally's Baking Addiction</title>
 </head>
+
 <body>
+
+ 
     
     <table width="70%" align="center">
     <tr>
@@ -15,12 +18,20 @@
                 <tr>
                     <td>
                         <h1>Tiramisu</h1>
-                        <p>
-                            Posted on <em>June 13, 2019</em> / posted in <a href="#">No-Bake Recipes</a>
-                        </p>
+                       
                     </td>
-                    <td >
-                        <a href="#">Buy on Amazon!</a>
+                </tr>
+                <tr>
+                    <td>
+                        <nav>
+                            <ul>
+                                <li><a href="#ingredients">Ingtenientet</a></li>
+                                <li><a href="#porosit">Porosit</a></li>
+                                <li><a href="#pergatitja">Pergatitja</a></li>
+                                <li><a href="#footer">Adresa</a></li>
+                            </ul>
+                            
+                                </nav>
                     </td>
                 </tr>
             </table>
@@ -40,7 +51,7 @@
                         <p>
                             A couple months ago, I was sent a new cookbook called Happiness is Baking. This cookbook includes Maida Heatter’s favorite recipes with the foreword written by Dorie Greenspan. I, unsurprisingly, immediately fell in love with my newest cookbook. It’s a collection of 100 foolproof and classic desserts including cookies, cakes, muffins, pies, tarts, and more that range from simple everyday cookies to outrageously indulgent chocolate soufflé cake.
                         </p>
-                        <h3>Ingredients</h3>
+                        <h3 id="ingredients">Ingredients</h3>
                         <ul>
                             <li>1 and 1/4 cups (300ml) very strongly prepared espresso, warm or room temperature</li>
                             <li>6 Tablespoons (90ml) Grand Marnier</li>
@@ -58,8 +69,53 @@
                             For those not familiar, Maida Heatter is an icon, especially in the baking world. Dubbed the Queen of Cake, her expansive culinary career included 9 cookbooks, recipes for the Times, a restaurant, and three James Beard Awards. Baker and author Dorie Greenspan once said “Whenever someone tells me they want to learn to bake, I tell them to start with Maida Heatter’s books. That’s what I did.” This latest cookbook is a testament to Maida’s legacy. She passed away only 2 months after this book was published. She leaves behind an incalculable amount of inspiration to bakers and cooks all over the world.
                         </p>
                         <br>
-                        <img src="./images/tiramisu.jpg" width="700" alt="Tiramisu">
                         <br><br>
+                        <div id="pergatitja">
+                            
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/J7uUylxVktI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/7VTtenyKRg4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+
+                        </div>
+                        
+                        <br><br><br><br>
+
+<fieldset id="porosit">
+    <legend>Porosit</legend>
+
+<form action="">
+
+    <label for="">Sasia</label> <input type="number">
+    <br>
+    <br>
+    <label for="">Embelsia</label> 
+    <select name="embelsia" id="embelsia">
+        <option value="volvo"></option>
+
+        <option value="volvo">Pak sheqer</option>
+        <option value="saab">Normal sheqer</option>
+        <option value="opel">Shume sheqer</option>
+        
+      </select>
+      <br><br>
+      <label for="">Kremi</label>
+      
+      <input type="radio" name="kremi">
+      <label for="">Pak</label>
+        <input type="radio" name="kremi">
+      <label for="">Shume</label>
+      <br><br>
+      <input type="button" value="Porosit">
+      <input type="reset" value="Fshij">
+
+</form>
+
+
+
+</fieldset>
+
+                        <br><br>
+                        
                         <h3>Common Tiramisu Questions – Answered</h3>
                         <dl>
                             <dt><strong>What kind of rum do I use in tiramisu?</strong></dt>
@@ -86,7 +142,23 @@
         </td>
     </tr>
     </table>
+<footer id="footer">
 
+    <div id="adresa">
+    <address>
+    Rruga: Ismail Qemali Nr: 108
+    </address>
+    </div>
+
+    <div id="harta">
+
+        <iframe class="gmap_iframe" width="450px" height="250px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=690&amp;height=383&amp;hl=en&amp;q=vlore&amp;t=p&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+    </div>
+
+</footer>
+<div id="copyrights">
+    <p>&copy; Skerdilajd Xhaferi ,, Contact <a href="mailto:skerdilajdxhaferi@gmail.com">skerdilajdxhaferi@gmail.com</a></p>
+</div>
 
 
 </body>
