@@ -122,6 +122,7 @@ display: flex;
 justify-content: space-evenly;
 align-items: center;
 
+
  }
 
  
@@ -136,7 +137,7 @@ label{
  fieldset{
 padding: 50px;
 font-size: 20px;
-margin: 0 80px;
+margin: 30px 80px;
 display: flex;
 justify-content: space-between;
 align-items: center;
